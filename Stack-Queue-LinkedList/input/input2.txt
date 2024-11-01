@@ -1,0 +1,12 @@
+make stack s1
+call s1.push(1)
+call s1.push(2)
+call s1.push(3)
+call s1.isEmpty()
+call s1.getSize()
+call s1.getInOneLine()
+call s1.pop()
+call s1.pop()
+call s1.pop()
+call s1.isEmpty()
+call s1.getSize()

@@ -1,0 +1,12 @@
+make queue q1
+call q1.enqueue(1)
+call q1.enqueue(2)
+call q1.enqueue(3)
+call q1.isEmpty()
+call q1.getSize()
+call q1.getInOneLine()
+call q1.dequeue()
+call q1.dequeue()
+call q1.dequeue()
+call q1.isEmpty()
+call q1.getSize()

@@ -1,0 +1,10 @@
+make min_heap m1
+call m1.heapify(10,5,20,30)
+call m1.find_min_child(0)
+call m1.heap_pop()
+call m1.heap_pop()
+call m1.heap_pop()
+call m1.heap_pop()
+call m1.find_min_child(-1)
+call m1.find_min_child(1)
+call m1.find_min_child('salap')

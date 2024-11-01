@@ -1,0 +1,5 @@
+make huffman_tree h1
+call h1.set_letters('a','b','c','d','e','f','g','h','i','j','k','l','m','n')
+call h1.set_repetitions(1000,900,1500,300,100,30,900,700,10000,10,1,1,9,9)
+call h1.build_huffman_tree()
+call h1.get_huffman_code_cost()

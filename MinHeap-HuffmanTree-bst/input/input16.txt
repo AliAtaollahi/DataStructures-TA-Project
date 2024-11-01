@@ -1,0 +1,8 @@
+make bst b1
+call b1.insert(50)
+call b1.insert(15)
+call b1.insert(20)
+call b1.insert(10)
+call b1.insert(40)
+call b1.insert(60)
+call b1.inorder()
